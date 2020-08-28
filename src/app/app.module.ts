@@ -1,5 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms'; 
+import { HttpClientModule } from '@angular/common/http'; 
+import { RouterModule }   from '@angular/router'; 
+
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,6 +13,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { NameSearchComponent } from './name-search/name-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
+
+import {ROUTES} from './app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -17,9 +26,17 @@ import { RepoSearchComponent } from './repo-search/repo-search.component';
     RepoSearchComponent,
     
   ],
+
+ 
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    FormsModule, 
+    HttpClientModule, 
+    RouterModule.forRoot(ROUTES),
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
