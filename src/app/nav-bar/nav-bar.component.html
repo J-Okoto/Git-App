@@ -1,1 +1,15 @@
-<p>nav-bar works!</p>
+<nav class="navbar navbar-inverse navbar-fixed-top"> 
+    <div class="container"> 
+        <div class="navbar-header"> 
+            <a class="navbar-brand" [routerLink]="['/']">GitSearch App</a> 
+        </div> 
+        <div id="navbar" class="collapse navbar-collapse"> 
+            <ul class="nav navbar-nav"> 
+                <li [routerLinkActive]="['active']"><a [routerLink]="
+                  ['/trending']">Git Name Search</a></li> 
+                <li [routerLinkActive]="['active']"><a [routerLink]="
+                  ['/search']">Git Repo Search</a></li> 
+            </ul> 
+        </div> 
+    </div> 
+</nav>
