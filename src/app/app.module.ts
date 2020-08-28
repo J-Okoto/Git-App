@@ -5,16 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
-import { GitNameSearchComponent } from './git-name-search/git-name-search.component';
-import { RepoNameSearchComponent } from './repo-name-search/repo-name-search.component';
+import { NameSearchComponent } from './name-search/name-search.component';
+import { RepoSearchComponent } from './repo-search/repo-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    GitNameSearchComponent,
-    RepoNameSearchComponent
+    NameSearchComponent,
+    RepoSearchComponent,
+    
   ],
   imports: [
     BrowserModule,

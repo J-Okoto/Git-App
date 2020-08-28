@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RepoNameSearchComponent } from './repo-name-search.component';
+import { NameSearchComponent } from './name-search.component';
 
-describe('RepoNameSearchComponent', () => {
-  let component: RepoNameSearchComponent;
-  let fixture: ComponentFixture<RepoNameSearchComponent>;
+describe('NameSearchComponent', () => {
+  let component: NameSearchComponent;
+  let fixture: ComponentFixture<NameSearchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RepoNameSearchComponent ]
+      declarations: [ NameSearchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RepoNameSearchComponent);
+    fixture = TestBed.createComponent(NameSearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

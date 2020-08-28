@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GitNameSearchComponent } from './git-name-search.component';
+import { RepoSearchComponent } from './repo-search.component';
 
-describe('GitNameSearchComponent', () => {
-  let component: GitNameSearchComponent;
-  let fixture: ComponentFixture<GitNameSearchComponent>;
+describe('RepoSearchComponent', () => {
+  let component: RepoSearchComponent;
+  let fixture: ComponentFixture<RepoSearchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GitNameSearchComponent ]
+      declarations: [ RepoSearchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GitNameSearchComponent);
+    fixture = TestBed.createComponent(RepoSearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
