@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { GitNameSearchComponent } from './git-name-search/git-name-search.component';
+import { RepoNameSearchComponent } from './repo-name-search/repo-name-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    GitNameSearchComponent
+    GitNameSearchComponent,
+    RepoNameSearchComponent
   ],
   imports: [
     BrowserModule,
