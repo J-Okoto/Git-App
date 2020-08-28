@@ -14,7 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { NameSearchComponent } from './name-search/name-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
 
-import {ROUTES} from './app-routing.module';
+
 
 
 @NgModule({
@@ -34,7 +34,7 @@ import {ROUTES} from './app-routing.module';
     AppRoutingModule, 
     FormsModule, 
     HttpClientModule, 
-    RouterModule.forRoot(ROUTES),
+    
     
 
   ],
