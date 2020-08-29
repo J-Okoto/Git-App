@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "https://bootswatch.com/cosmo/bootstrap.min.css";
 @import "~bootstrap/dist/css/bootstrap.css";
-
+@import '~font-awesome/css/font-awesome.css';
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Berkshire+Swash|Lustria|Old+Standard+TT|Pangolin&display=swap');
 .container {padding-top: 10px;
    
     padding-bottom: 20px; 
@@ -25,10 +26,10 @@ li {
       body{background-image:url("./assets/image3.jpg") ;
         
  
-  background-size: cover; 
-  height:fit-content;
-  width: fit-content;
-  position: absolute;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 
  .navbar {background-color: black;}
