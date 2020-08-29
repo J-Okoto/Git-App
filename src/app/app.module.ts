@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { NameSearchComponent } from './name-search/name-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
+import { FormComponent } from './form/form.component';
 
 
 
@@ -24,6 +25,7 @@ import { RepoSearchComponent } from './repo-search/repo-search.component';
     HomeComponent,
     NameSearchComponent,
     RepoSearchComponent,
+    FormComponent,
     
   ],
 

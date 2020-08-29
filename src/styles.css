@@ -28,10 +28,10 @@ li {
   background-size: cover; 
   height:fit-content;
   width: fit-content;
-  position: fixed;
+  position: absolute;
 }
 
- .nav .navbar {background-color: transparent;}
+ .navbar {background-color: black;}
 
  .media{padding-top: 150px;}
  .media img{height: 50px;
