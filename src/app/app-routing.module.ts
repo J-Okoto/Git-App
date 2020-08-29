@@ -5,12 +5,14 @@ import { NameSearchComponent } from './name-search/name-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component'; 
 
 
-const routes: Routes = [{ path: '', component: HomeComponent }, 
+const routes: Routes = [{ path: '', component: HomeComponent, }, 
 { path: 'namesearch', component: NameSearchComponent }, 
-{ path: 'reposearch', component: RepoSearchComponent }, ];
+{ path: 'reposearch', component: RepoSearchComponent },
+
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
