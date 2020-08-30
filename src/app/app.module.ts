@@ -17,6 +17,7 @@ import { FormComponent } from './form/form.component';
 
 import { ROUTES } from './app-routing.module';
 import { DateCountPipe } from './date-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { DateCountPipe } from './date-count.pipe';
     RepoSearchComponent,
     FormComponent,
     DateCountPipe,
+    HighlightDirective,
     
   ],
 
