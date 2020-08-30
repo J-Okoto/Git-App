@@ -7,7 +7,7 @@ import { RouterModule }   from '@angular/router';
 
 
 
-import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
@@ -15,7 +15,7 @@ import { NameSearchComponent } from './name-search/name-search.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
 import { FormComponent } from './form/form.component';
 
-
+import { ROUTES } from './app-routing.module';
 
 
 @NgModule({
@@ -33,7 +33,7 @@ import { FormComponent } from './form/form.component';
 
   imports: [
     BrowserModule,
-    AppRoutingModule, 
+    RouterModule.forRoot(ROUTES) , 
     FormsModule, 
     HttpClientModule, 
     
