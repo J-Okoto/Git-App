@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; 
 import { HttpClientModule } from '@angular/common/http'; 
 import { RouterModule }   from '@angular/router'; 
-
+import { NameRequestService} from './name-request.service';
 
 
 
@@ -40,7 +40,7 @@ import { ROUTES } from './app-routing.module';
     
 
   ],
-  providers: [],
+  providers: [NameRequestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
