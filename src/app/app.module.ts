@@ -16,6 +16,7 @@ import { RepoSearchComponent } from './repo-search/repo-search.component';
 import { FormComponent } from './form/form.component';
 
 import { ROUTES } from './app-routing.module';
+import { DateCountPipe } from './date-count.pipe';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ROUTES } from './app-routing.module';
     NameSearchComponent,
     RepoSearchComponent,
     FormComponent,
+    DateCountPipe,
     
   ],
 
